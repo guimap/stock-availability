@@ -1,1 +1,1 @@
-require('dotenv').config()
+process.env.TODAY = '2020-07-07T00:00:00'
