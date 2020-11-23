@@ -1,0 +1,70 @@
+{"_id":{"$oid":"5fbadfdf8114597591a9c119"},"uf":"AC","city":"RIO BRANCO","quantity":379}
+{"_id":{"$oid":"5fbadfdf8114597591a9c11a"},"uf":"AL","city":"MACEIO","quantity":98}
+{"_id":{"$oid":"5fbadfdf8114597591a9c11b"},"uf":"AM","city":"MANAUS","quantity":220}
+{"_id":{"$oid":"5fbadfdf8114597591a9c11c"},"uf":"AP","city":"MACAPA","quantity":116}
+{"_id":{"$oid":"5fbadfdf8114597591a9c11d"},"uf":"BA","city":"ALAGOINHAS","quantity":49}
+{"_id":{"$oid":"5fbadfdf8114597591a9c11e"},"uf":"BA","city":"BUNKER SALVADOR","quantity":371}
+{"_id":{"$oid":"5fbadfdf8114597591a9c11f"},"uf":"BA","city":"FEIRA DE SANTANA","quantity":132}
+{"_id":{"$oid":"5fbadfdf8114597591a9c120"},"uf":"BA","city":"VITORIA DA CONQUISTA","quantity":242}
+{"_id":{"$oid":"5fbadfdf8114597591a9c121"},"uf":"CE","city":"CASCAVEL","quantity":153}
+{"_id":{"$oid":"5fbadfdf8114597591a9c122"},"uf":"CE","city":"FORTALEZA","quantity":236}
+{"_id":{"$oid":"5fbadfdf8114597591a9c123"},"uf":"CE","city":"JUAZEIRO DO NORTE","quantity":399}
+{"_id":{"$oid":"5fbadfdf8114597591a9c124"},"uf":"CE","city":"SOBRAL","quantity":362}
+{"_id":{"$oid":"5fbadfdf8114597591a9c125"},"uf":"DF","city":"BRASILIA","quantity":304}
+{"_id":{"$oid":"5fbadfdf8114597591a9c126"},"uf":"DF","city":"PLANALTINA","quantity":299}
+{"_id":{"$oid":"5fbadfdf8114597591a9c127"},"uf":"ES","city":"ARACRUZ","quantity":100}
+{"_id":{"$oid":"5fbadfdf8114597591a9c128"},"uf":"ES","city":"CACHOEIRO DE ITAPEMIRIM","quantity":287}
+{"_id":{"$oid":"5fbadfdf8114597591a9c129"},"uf":"ES","city":"GUARAPARI","quantity":304}
+{"_id":{"$oid":"5fbadfdf8114597591a9c12a"},"uf":"ES","city":"VITORIA","quantity":160}
+{"_id":{"$oid":"5fbadfdf8114597591a9c12b"},"uf":"GO","city":"CATALAO","quantity":187}
+{"_id":{"$oid":"5fbadfdf8114597591a9c12c"},"uf":"GO","city":"GOIANIA","quantity":396}
+{"_id":{"$oid":"5fbadfdf8114597591a9c12d"},"uf":"GO","city":"ITUMBIARA","quantity":286}
+{"_id":{"$oid":"5fbadfdf8114597591a9c12e"},"uf":"GO","city":"RIO VERDE","quantity":153}
+{"_id":{"$oid":"5fbadfdf8114597591a9c12f"},"uf":"GO","city":"VALPARAISO DE GOIAS","quantity":28}
+{"_id":{"$oid":"5fbadfdf8114597591a9c130"},"uf":"MA","city":"SAO LUIS","quantity":193}
+{"_id":{"$oid":"5fbadfdf8114597591a9c131"},"uf":"MG","city":"ALFENAS","quantity":33}
+{"_id":{"$oid":"5fbadfdf8114597591a9c132"},"uf":"MG","city":"BELO HORIZONTE","quantity":94}
+{"_id":{"$oid":"5fbadfdf8114597591a9c133"},"uf":"MG","city":"JUIZ DE FORA","quantity":185}
+{"_id":{"$oid":"5fbadfdf8114597591a9c134"},"uf":"MG","city":"PATOS DE MINAS","quantity":367}
+{"_id":{"$oid":"5fbadfdf8114597591a9c135"},"uf":"MG","city":"POÇOS DE CALDAS","quantity":75}
+{"_id":{"$oid":"5fbadfdf8114597591a9c136"},"uf":"MG","city":"POUSO ALEGRE","quantity":36}
+{"_id":{"$oid":"5fbadfdf8114597591a9c137"},"uf":"MS","city":"CAMPO GRANDE","quantity":66}
+{"_id":{"$oid":"5fbadfdf8114597591a9c138"},"uf":"MS","city":"DOURADOS","quantity":274}
+{"_id":{"$oid":"5fbadfdf8114597591a9c139"},"uf":"MT","city":"CUIABA","quantity":241}
+{"_id":{"$oid":"5fbadfdf8114597591a9c13a"},"uf":"MT","city":"PRIMAVERA DO LESTE","quantity":277}
+{"_id":{"$oid":"5fbadfdf8114597591a9c13b"},"uf":"PA","city":"CASTANHAL","quantity":299}
+{"_id":{"$oid":"5fbadfdf8114597591a9c13c"},"uf":"PA","city":"MARABA","quantity":52}
+{"_id":{"$oid":"5fbadfdf8114597591a9c13d"},"uf":"PB","city":"CAMPINA GRANDE","quantity":360}
+{"_id":{"$oid":"5fbadfdf8114597591a9c13e"},"uf":"PB","city":"JOAO PESSOA","quantity":12}
+{"_id":{"$oid":"5fbadfdf8114597591a9c13f"},"uf":"PB","city":"PATOS","quantity":130}
+{"_id":{"$oid":"5fbadfdf8114597591a9c140"},"uf":"PE","city":"BUNKER RECIFE 1","quantity":58}
+{"_id":{"$oid":"5fbadfdf8114597591a9c141"},"uf":"PE","city":"CARUARU","quantity":130}
+{"_id":{"$oid":"5fbadfdf8114597591a9c142"},"uf":"PE","city":"GRAVATA","quantity":309}
+{"_id":{"$oid":"5fbadfdf8114597591a9c143"},"uf":"PE","city":"JABOATAO DOS GUARARAPES","quantity":336}
+{"_id":{"$oid":"5fbadfdf8114597591a9c144"},"uf":"PE","city":"OLINDA","quantity":293}
+{"_id":{"$oid":"5fbadfdf8114597591a9c145"},"uf":"PE","city":"VALE DO SAO FRANCISCO","quantity":358}
+{"_id":{"$oid":"5fbadfdf8114597591a9c146"},"uf":"PI","city":"TERESINA","quantity":322}
+{"_id":{"$oid":"5fbadfdf8114597591a9c147"},"uf":"PR","city":"APUCARANA","quantity":394}
+{"_id":{"$oid":"5fbadfdf8114597591a9c148"},"uf":"PR","city":"CURITIBA","quantity":17}
+{"_id":{"$oid":"5fbadfdf8114597591a9c149"},"uf":"PR","city":"FOZ DO IGUAÇU","quantity":80}
+{"_id":{"$oid":"5fbadfdf8114597591a9c14a"},"uf":"PR","city":"LONDRINA","quantity":365}
+{"_id":{"$oid":"5fbadfdf8114597591a9c14b"},"uf":"PR","city":"MARINGA","quantity":11}
+{"_id":{"$oid":"5fbadfdf8114597591a9c14c"},"uf":"RJ","city":"BANGU","quantity":258}
+{"_id":{"$oid":"5fbadfdf8114597591a9c14d"},"uf":"RJ","city":"BUNKER 1","quantity":280}
+{"_id":{"$oid":"5fbadfdf8114597591a9c14e"},"uf":"RJ","city":"CABO FRIO","quantity":299}
+{"_id":{"$oid":"5fbadfdf8114597591a9c14f"},"uf":"RJ","city":"CAMPO GRANDE","quantity":73}
+{"_id":{"$oid":"5fbadfdf8114597591a9c150"},"uf":"RJ","city":"CAMPOS","quantity":167}
+{"_id":{"$oid":"5fbadfdf8114597591a9c151"},"uf":"RJ","city":"DUQUE DE CAXIAS","quantity":393}
+{"_id":{"$oid":"5fbadfdf8114597591a9c152"},"uf":"RJ","city":"ITAPERUNA","quantity":368}
+{"_id":{"$oid":"5fbadfdf8114597591a9c153"},"uf":"RJ","city":"MACAE","quantity":239}
+{"_id":{"$oid":"5fbadfdf8114597591a9c154"},"uf":"RJ","city":"NITEROI","quantity":72}
+{"_id":{"$oid":"5fbadfdf8114597591a9c155"},"uf":"RJ","city":"RECREIO","quantity":60}
+{"_id":{"$oid":"5fbadfdf8114597591a9c156"},"uf":"RJ","city":"RESENDE","quantity":125}
+{"_id":{"$oid":"5fbadfdf8114597591a9c157"},"uf":"RJ","city":"RIO DAS OSTRAS","quantity":156}
+{"_id":{"$oid":"5fbadfdf8114597591a9c158"},"uf":"RJ","city":"SANTA CRUZ","quantity":224}
+{"_id":{"$oid":"5fbadfdf8114597591a9c159"},"uf":"RJ","city":"SAO GONÇALO","quantity":240}
+{"_id":{"$oid":"5fbadfdf8114597591a9c15a"},"uf":"RJ","city":"SAQUAREMA","quantity":173}
+{"_id":{"$oid":"5fbadfdf8114597591a9c15b"},"uf":"RJ","city":"VOLTA REDONDA","quantity":360}
+{"_id":{"$oid":"5fbadfdf8114597591a9c15c"},"uf":"RN","city":"NATAL","quantity":344}
+{"_id":{"$oid":"5fbadfdf8114597591a9c15d"},"uf":"RO","city":"PORTO VELHO","quantity":388}
+{"_id":{"$oid":"5fbadfdf8114597591a9c15e"},"uf":"RS","city":"CAXIAS DO SUL","quantity":137}

@@ -1,3 +1,16 @@
+# Getting Started
+
+## Popular banco de dados
+Faça um bump dos dados no banco de dados mongo, os arquivos de bump estão dentro da pasta `data/`
+
+## Variaveis de ambiente
+Crie um arquivo `.env` a partir do `.env.example`
+
+## Instale as depedencias e starte o projeto
+Rode o comando `npm install` e após o OK rode `npm start`
+
+
+
 # Rotas
 
 ## Situação de todas cidades
