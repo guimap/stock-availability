@@ -20,7 +20,7 @@ describe('StockService', () => {
     )
   })
   describe('getAverageOrders', () => {
-    test('should do a average by month according historic of orders', async () => {
+    test('should do a average by month according historic of orders and return a average of 2', async () => {
       atendimentoRepository.ordersByMonth = jest.fn(() => Promise.resolve(orderMock))
       stockRepository.currentStock = jest.fn(() => Promise.resolve(stockMock))
       const average = await stockService.getAverageOrders('MG', 'JUIZ DE FORA')

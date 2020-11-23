@@ -1,7 +1,7 @@
 # Getting Started
 
 ## Popular banco de dados
-Faça um bump dos dados no banco de dados mongo, os arquivos de bump estão dentro da pasta `data/`
+Faça um import dos dados no banco de dados mongo, os arquivos de bump estão dentro da pasta `data/`
 
 ## Variaveis de ambiente
 Crie um arquivo `.env` a partir do `.env.example`
