@@ -1,4 +1,5 @@
 const moment = require('moment')
+const StockNotFoundError = require('../structures/errors/StockNotFoundError')
 const {TODAY} = process.env
 class StockService {
     constructor (stockRepository, atendimentoRepository) {
@@ -8,6 +9,7 @@ class StockService {
 
     async getAverageOrders(uf, city) {
       const orderByMonth =  await this.atendimentoRepository.ordersByMonth(uf, city)
+      if(!orderByMonth || orderByMonth.length === 0) return 0
       const lastIndex = orderByMonth.length - 1
       const firstOrder = orderByMonth[lastIndex]
       const dateFirstOder = moment(firstOrder.date)
@@ -27,16 +29,18 @@ class StockService {
     }
 
     async getStockAvailability(uf, city) {
+      const currentStock = await this.repository.currentStock(uf, city)
+      if (!currentStock) throw new StockNotFoundError(uf, city)
       const averageItensByDay = await this.getAverageOrders(uf, city)
 
       //  Pega o estoque atual
-      const currentStock = await this.repository.currentStock(uf, city)
       return this.getCriticalAlertStock(currentStock, averageItensByDay)
 
     }
 
     async getAllStockAvailability() {
       const allStocks = await this.repository.allStocks()
+      if (!allStocks || allStocks.length === 0) throw new StockNotFoundError()
       const pendingPromises = allStocks.map(stock => {
         return new Promise(async (resolve) => {
           const averageItensByDay = await this.getAverageOrders(stock.uf, stock.city)

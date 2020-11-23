@@ -25,9 +25,8 @@ function connectDB () {
             }
             console.log("Connected successfully to server");
         
-            const db = client.db(MONGDBNAME)
             resolve({
-                db,
+                db: client.db(),
                 client
             })
         });
@@ -57,7 +56,6 @@ const init = async () => {
 	});
 
 	const {db, client} = await connectDB()
-
 	const stockRepository = new StockRepository(db)
 	const atendimentoRepository = new AtendimentoRepository(db)
 
