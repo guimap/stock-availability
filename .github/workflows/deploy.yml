@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      - name: npm-ci
+        run: npm cli
       # Runs the Super-Linter action
       - name: Run Lint
         run: npm run lint
