@@ -43,8 +43,7 @@ function registerRoutes (server, depedencies) {
 
 const init = async () => {
   const server = Hapi.server({
-    port: PORT || 5000,
-    host: 'localhost'
+    port: PORT || 5000
   })
 
   const { db } = await connectDB()
