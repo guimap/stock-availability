@@ -14,21 +14,15 @@ const AtendimentoRepository = require('./repositories/AtendimentoRepository')
 // Services
 const StockService = require('./services/StockService')
 
-function connectDB () {
-  return new Promise((resolve, reject) => {
-    MongoClient.connect(MONGODBURI, function (err, client) {
-      if (err) {
-        console.error(err)
-        return reject(err)
-      }
-      console.log('Connected successfully to server')
-
-      resolve({
-        db: client.db(),
-        client
-      })
-    })
+async function connectDB () {
+  const client = await MongoClient.connect(MONGODBURI, {
+    poolSize: 10,
+    useNewUrlParser: true
   })
+  return {
+    client,
+    db: client.db()
+  }
 }
 
 function registerRoutes (server, depedencies) {
